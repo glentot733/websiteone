@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title>Borders</title>
+    
+	<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+	<style type="text/css">
+	
+		#first-section {
+			background: red;
+			border:10px yellow solid
+		}
+		#second-section {			
+			background: blue;
+			border-style:dotted solid dotted dashed;
+			border-color:red yellow pink blue;
+			border-width:10px 5px 3px 2px
+		}
+		
+		#third-section {
+			background: green;
+			border-radius:50%
+		}
+		
+		.setting	{
+			width:100px;
+			height:100px;
+			margin:40px;
+			float:left
+		}
+		
+				
+		p	{
+			font-family:'Metal Mania', cursive;
+			color:yellow;
+			font-size: 40px
+		}
+		
+		body 	{
+			background-color:#202020
+		}
+		
+		#HOMESET	{
+				text-align:center;
+				font-size:30px;
+				Background:green
+		}
+		
+		.clear-float	{
+			clear:both
+		}
+		
+		.red	{
+			color:red
+		}
+		
+		.bold	{
+			font-weight:bold;
+			color:red
+		}
+		
+		.italic		{
+			font-style:italic;
+			color:red
+		}
+		
+		.itbol	{
+			font-weight:bold;
+			font-style:italic;
+			color:red
+		}
+		
+		.underlined		{
+			text-decoration:underline;
+			color:red
+		}
+		
+		a	{
+			text-decoration:none
+		}		
+				
+		a:hover	{
+			
+			text-decoration:underline;
+			color:red
+		}
+		
+		.big	{
+			font-size:200%;
+			color:red
+		}
+    </style>    
+</head>
+
+<body>
+	<p>The shapes shown uses background command.</p>
+	<div id="first-section" class="setting"></div>	
+	
+	<div id="second-section" class="setting"></div>
+	
+	<div id="third-section" class="setting"></div>
+	
+	<div class="clear-float"></div>
+	
+		<p>This is for changing font. This font is connected (embedded) to Google Fonts</p>
+	
+		<hr class="red">
+	
+		<p>TEXT SYLING</p>
+			<ul>
+				<li class="bold">This is BOLD style using "FONT WEIGHT" command</li>
+				<li class="italic">This is italic using "FONT STYLE" command</li>
+				<li style="color:red">This is combination of <span class="itbol">"BOLD & ITALIC"</span></li>
+				<li class="underlined">This text is UNDERLINED</li>
+				<li class="big">This text is BIG!</li>
+			</ul>
+		<p><span class="underlined" style="color:green">Note:</span> More text styling can be found on www.w3schools.com</p>
+		
+	<hr class="red">
+	
+		<p class="italic">MOUSE TRICK FOR LINKS</p>
+		<p>The link below change color & underlined when mouse hover</p>
+		
+		<div id="HOMESET"><a href="index.html">Home</a></div>
+</body>
+</html>
